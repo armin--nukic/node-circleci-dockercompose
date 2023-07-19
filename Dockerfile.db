@@ -1,0 +1,5 @@
+# Koristi MongoDB sliku kao osnovu
+FROM mongo:latest
+
+# Izloži MongoDB port
+EXPOSE 27017
